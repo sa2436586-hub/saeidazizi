@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="سعید عزیزی - متخصص آموزش نوین، هوش مصنوعی در آموزش، بازی‌های آموزشی HTML و فناوری آموزشی برای معلمان و مدارس ایران" />
+  <meta name="keywords" content="سعید عزیزی, آموزش نوین, هوش مصنوعی در آموزش, بازی آموزشی, فناوری آموزشی, کارگاه معلمان, تولید محتوا" />
+  <meta name="author" content="سعید عزیزی" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#87CEEB" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="سعید عزیزی | آموزش نوین برای معلمان آینده" />
+  <meta property="og:description" content="آموزش هوش مصنوعی، فناوری آموزشی، بازی‌سازی HTML و روش‌های تدریس نوین برای معلمان و مدارس" />
+  <meta property="og:image" content="https://saeidazizi.ir/og-image.jpg" />
+  <meta property="og:url" content="https://saeidazizi.ir" />
+  <meta property="og:locale" content="fa_IR" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="سعید عزیزی | آموزش نوین" />
+  <meta name="twitter:description" content="متخصص هوش مصنوعی در آموزش، بازی‌های آموزشی HTML و فناوری آموزشی" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "سعید عزیزی",
+    "alternateName": "Saeid Azizi",
+    "jobTitle": "متخصص آموزش نوین و هوش مصنوعی در آموزش",
+    "description": "آموزش هوش مصنوعی، فناوری آموزشی، بازی‌سازی HTML و روش‌های تدریس نوین",
+    "url": "https://saeidazizi.ir",
+    "sameAs": [
+      "https://t.me/saeidazizi",
+      "https://instagram.com/saeidazizi",
+      "https://youtube.com/saeidazizi",
+      "https://linkedin.com/in/saeidazizi"
+    ],
+    "knowsAbout": ["هوش مصنوعی در آموزش", "فناوری آموزشی", "بازی‌های آموزشی", "روش‌های تدریس نوین"]
+  }
+  </script>
+
+  <title>سعید عزیزی | آموزش با روش‌های نوین برای آینده‌ای هوشمند</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-logo">سعید عزیزی</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header id="navbar" role="banner">
+    <nav class="nav-container" aria-label="ناوبری اصلی">
+      <a href="#home" class="nav-brand" aria-label="سعید عزیزی - صفحه اصلی">
+        <span class="brand-icon" aria-hidden="true">✦</span>
+        <span class="brand-text">سعید عزیزی</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="باز/بستن منو" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="#home" class="nav-link active" aria-current="page">خانه</a></li>
+        <li><a href="#services" class="nav-link">خدمات</a></li>
+        <li><a href="#games" class="nav-link">بازی‌های آموزشی</a></li>
+        <li><a href="#ai-gallery" class="nav-link">گالری هوش مصنوعی</a></li>
+        <li><a href="#methods" class="nav-link">روش‌های تدریس</a></li>
+        <li><a href="#blog" class="nav-link">وبلاگ</a></li>
+        <li><a href="#courses" class="nav-link">دوره‌ها</a></li>
+        <li><a href="#downloads" class="nav-link">دانلودها</a></li>
+        <li><a href="#about" class="nav-link">درباره من</a></li>
+        <li><a href="#faq" class="nav-link">سوالات</a></li>
+        <li><a href="#contact" class="nav-link">تماس</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="darkModeToggle" class="btn-icon" aria-label="تغییر حالت تاریک/روشن">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero-section" aria-label="معرفی">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+        <canvas id="hero-canvas"></canvas>
+      </div>
+
+      <div class="hero-floating" aria-hidden="true">
+        <div class="float-card float-1"><i class="fas fa-robot"></i><span>هوش مصنوعی</span></div>
+        <div class="float-card float-2"><i class="fas fa-gamepad"></i><span>بازی آموزشی</span></div>
+        <div class="float-card float-3"><i class="fas fa-graduation-cap"></i><span>تدریس نوین</span></div>
+        <div class="float-card float-4"><i class="fas fa-laptop-code"></i><span>فناوری آموزشی</span></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal-up">
+          <i class="fas fa-star" aria-hidden="true"></i>
+          <span>آموزش با روش‌های نوین برای آینده‌ای هوشمند</span>
+        </div>
+
+        <h1 class="hero-title reveal-up">
+          <span class="title-line">آموزش نوین</span>
+          <span class="title-line accent-line">برای معلمان آینده</span>
+        </h1>
+
+        <p class="hero-subtitle reveal-up">
+          آموزش هوش مصنوعی، فناوری آموزشی، بازی‌سازی HTML و روش‌های تدریس نوین<br />
+          برای معلمان، دانش‌آموزان و مدارس ایران
+        </p>
+
+        <div class="hero-actions reveal-up">
+          <a href="#services" class="btn btn-primary">
+            <i class="fas fa-compass" aria-hidden="true"></i>
+            مشاهده خدمات
+          </a>
+          <a href="#games" class="btn btn-outline">
+            <i class="fas fa-play-circle" aria-hidden="true"></i>
+            نمونه کارها
+          </a>
+        </div>
+
+        <div class="hero-meta reveal-up" aria-label="آمار کلی">
+          <div class="hero-meta-item">
+            <strong>+۱۰</strong>
+            <span>سال تجربه</span>
+          </div>
+          <div class="hero-meta-divider" aria-hidden="true"></div>
+          <div class="hero-meta-item">
+            <strong>+۱۰۰۰</strong>
+            <span>ساعت تدریس</span>
+          </div>
+          <div class="hero-meta-divider" aria-hidden="true"></div>
+          <div class="hero-meta-item">
+            <strong>+۱۰۰</strong>
+            <span>محتوای آموزشی</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#stats" class="hero-scroll" aria-label="اسکرول به پایین">
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section id="stats" class="stats-section" aria-label="آمار و دستاوردها">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal-up" data-delay="0">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-award"></i></div>
+            <div class="stat-number" data-target="10" data-suffix="+">۰</div>
+            <div class="stat-label">سال تجربه تدریس</div>
+          </div>
+          <div class="stat-card reveal-up" data-delay="100">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-file-alt"></i></div>
+            <div class="stat-number" data-target="100" data-suffix="+">۰</div>
+            <div class="stat-label">محتوای آموزشی</div>
+          </div>
+          <div class="stat-card reveal-up" data-delay="200">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-tools"></i></div>
+            <div class="stat-number" data-target="50" data-suffix="+">۰</div>
+            <div class="stat-label">ابزار آموزشی</div>
+          </div>
+          <div class="stat-card reveal-up" data-delay="300">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
+            <div class="stat-number" data-target="1000" data-suffix="+">۰</div>
+            <div class="stat-label">ساعت تدریس</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services-section section-pad" aria-label="خدمات">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">خدمات حرفه‌ای</div>
+          <h2 class="section-title">آنچه ارائه می‌دهم</h2>
+          <p class="section-desc">مجموعه‌ای از خدمات تخصصی برای ارتقاء کیفیت آموزش در مدارس و کلاس‌های درس</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal-up" data-delay="0" aria-label="هوش مصنوعی در آموزش">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <div class="service-icon"><i class="fas fa-robot"></i></div>
+            </div>
+            <h3>هوش مصنوعی در آموزش</h3>
+            <p>کاربرد ابزارهای هوش مصنوعی در کلاس درس، شخصی‌سازی یادگیری و بهره‌گیری از ChatGPT برای معلمان</p>
+            <a href="#contact" class="service-link">بیشتر بدانید <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card reveal-up" data-delay="100" aria-label="بازی‌های آموزشی HTML">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <div class="service-icon"><i class="fas fa-gamepad"></i></div>
+            </div>
+            <h3>بازی‌های آموزشی HTML</h3>
+            <p>طراحی و توسعه بازی‌های آموزشی تعاملی با HTML5 برای تدریس مفاهیم پایه‌ای دروس ابتدایی</p>
+            <a href="#games" class="service-link">نمونه بازی‌ها <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card reveal-up" data-delay="200" aria-label="تولید محتوای آموزشی">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+            </div>
+            <h3>تولید محتوای آموزشی</h3>
+            <p>خلق محتوای دیجیتال، ویدیوهای آموزشی، اینفوگرافیک و پادکست‌های آموزشی با رویکرد خلاقانه</p>
+            <a href="#contact" class="service-link">بیشتر بدانید <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card reveal-up" data-delay="300" aria-label="فناوری آموزشی">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+            </div>
+            <h3>فناوری آموزشی</h3>
+            <p>آشنایی با ابزارهای Edtech، پلتفرم‌های یادگیری آنلاین، تخته‌های هوشمند و نرم‌افزارهای آموزشی</p>
+            <a href="#contact" class="service-link">بیشتر بدانید <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card reveal-up" data-delay="400" aria-label="کارگاه‌های معلمان">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <div class="service-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+            </div>
+            <h3>کارگاه‌های معلمان</h3>
+            <p>برگزاری کارگاه‌های تخصصی حضوری و آنلاین برای ارتقاء مهارت‌های تدریس و کاربرد فناوری</p>
+            <a href="#contact" class="service-link">ثبت‌نام <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card reveal-up" data-delay="500" aria-label="وسایل کمک آموزشی">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <div class="service-icon"><i class="fas fa-boxes"></i></div>
+            </div>
+            <h3>وسایل کمک‌آموزشی</h3>
+            <p>طراحی و معرفی ابزارهای کمک‌آموزشی خلاقانه برای ملموس‌سازی مفاهیم انتزاعی و جذاب‌سازی کلاس</p>
+            <a href="#downloads" class="service-link">دانلود منابع <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATIONAL GAMES ===== -->
+    <section id="games" class="games-section section-pad" aria-label="بازی‌های آموزشی">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">یادگیری از طریق بازی</div>
+          <h2 class="section-title">بازی‌های آموزشی HTML</h2>
+          <p class="section-desc">مجموعه‌ای از بازی‌های تعاملی طراحی‌شده برای دروس ابتدایی</p>
+        </div>
+
+        <div class="filter-bar reveal-up" role="group" aria-label="فیلتر بازی‌ها">
+          <button class="filter-btn active" data-filter="all">همه</button>
+          <button class="filter-btn" data-filter="math">ریاضی</button>
+          <button class="filter-btn" data-filter="farsi">فارسی</button>
+          <button class="filter-btn" data-filter="english">انگلیسی</button>
+          <button class="filter-btn" data-filter="science">علوم</button>
+          <button class="filter-btn" data-filter="quiz">مسابقه</button>
+        </div>
+
+        <div class="games-grid" id="gamesGrid">
+
+          <article class="game-card reveal-up" data-category="math" aria-label="بازی ریاضی ابتدایی">
+            <div class="game-thumb">
+              <div class="game-thumb-inner math-bg">
+                <i class="fas fa-calculator" aria-hidden="true"></i>
+                <div class="game-numbers" aria-hidden="true">۱+۲=۳</div>
+              </div>
+              <div class="game-overlay">
+                <button class="btn-play" aria-label="اجرای بازی ریاضی">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+              </div>
+              <span class="game-badge">ریاضی</span>
+            </div>
+            <div class="game-info">
+              <h3>ریاضی ابتدایی</h3>
+              <p>تمرین جمع، تفریق، ضرب و تقسیم به روش تعاملی و جذاب</p>
+              <div class="game-meta">
+                <span><i class="fas fa-user" aria-hidden="true"></i> پایه ۱-۳</span>
+                <span><i class="fas fa-star" aria-hidden="true"></i> ۴.۸</span>
+              </div>
+              <div class="game-actions">
+                <button class="btn btn-sm btn-primary game-launch" aria-label="اجرای بازی ریاضی">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+                <button class="btn btn-sm btn-outline">جزئیات</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card reveal-up" data-category="farsi" data-delay="100" aria-label="بازی فارسی و املا">
+            <div class="game-thumb">
+              <div class="game-thumb-inner farsi-bg">
+                <i class="fas fa-pen-fancy" aria-hidden="true"></i>
+                <div class="game-numbers" aria-hidden="true">الف ب پ</div>
+              </div>
+              <div class="game-overlay">
+                <button class="btn-play" aria-label="اجرای بازی فارسی">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+              </div>
+              <span class="game-badge">فارسی</span>
+            </div>
+            <div class="game-info">
+              <h3>فارسی و املا</h3>
+              <p>یادگیری حروف فارسی، نوشتن صحیح کلمات و تقویت مهارت‌های خواندن</p>
+              <div class="game-meta">
+                <span><i class="fas fa-user" aria-hidden="true"></i> پایه ۱-۲</span>
+                <span><i class="fas fa-star" aria-hidden="true"></i> ۴.۹</span>
+              </div>
+              <div class="game-actions">
+                <button class="btn btn-sm btn-primary game-launch">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+                <button class="btn btn-sm btn-outline">جزئیات</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card reveal-up" data-category="english" data-delay="200" aria-label="بازی زبان انگلیسی">
+            <div class="game-thumb">
+              <div class="game-thumb-inner english-bg">
+                <i class="fas fa-language" aria-hidden="true"></i>
+                <div class="game-numbers" aria-hidden="true">A B C</div>
+              </div>
+              <div class="game-overlay">
+                <button class="btn-play" aria-label="اجرای بازی انگلیسی">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+              </div>
+              <span class="game-badge">انگلیسی</span>
+            </div>
+            <div class="game-info">
+              <h3>زبان انگلیسی</h3>
+              <p>یادگیری واژگان پایه، گرامر ساده و مکالمه روزمره به روش بازی</p>
+              <div class="game-meta">
+                <span><i class="fas fa-user" aria-hidden="true"></i> پایه ۳-۶</span>
+                <span><i class="fas fa-star" aria-hidden="true"></i> ۴.۷</span>
+              </div>
+              <div class="game-actions">
+                <button class="btn btn-sm btn-primary game-launch">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+                <button class="btn btn-sm btn-outline">جزئیات</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card reveal-up" data-category="science" data-delay="300" aria-label="بازی علوم تجربی">
+            <div class="game-thumb">
+              <div class="game-thumb-inner science-bg">
+                <i class="fas fa-flask" aria-hidden="true"></i>
+                <div class="game-numbers" aria-hidden="true">🔬 🌍</div>
+              </div>
+              <div class="game-overlay">
+                <button class="btn-play" aria-label="اجرای بازی علوم">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+              </div>
+              <span class="game-badge">علوم</span>
+            </div>
+            <div class="game-info">
+              <h3>علوم تجربی</h3>
+              <p>آزمایش‌های مجازی، کشف طبیعت و مفاهیم علمی به شکل تعاملی</p>
+              <div class="game-meta">
+                <span><i class="fas fa-user" aria-hidden="true"></i> پایه ۳-۶</span>
+                <span><i class="fas fa-star" aria-hidden="true"></i> ۴.۶</span>
+              </div>
+              <div class="game-actions">
+                <button class="btn btn-sm btn-primary game-launch">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+                <button class="btn btn-sm btn-outline">جزئیات</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card reveal-up" data-category="quiz" data-delay="400" aria-label="مسابقات آموزشی">
+            <div class="game-thumb">
+              <div class="game-thumb-inner quiz-bg">
+                <i class="fas fa-trophy" aria-hidden="true"></i>
+                <div class="game-numbers" aria-hidden="true">🏆 Quiz</div>
+              </div>
+              <div class="game-overlay">
+                <button class="btn-play" aria-label="اجرای مسابقه">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+              </div>
+              <span class="game-badge">مسابقه</span>
+            </div>
+            <div class="game-info">
+              <h3>مسابقات آموزشی</h3>
+              <p>مسابقه دانشی بین دانش‌آموزان با سوالات متنوع از دروس مختلف</p>
+              <div class="game-meta">
+                <span><i class="fas fa-user" aria-hidden="true"></i> همه پایه‌ها</span>
+                <span><i class="fas fa-star" aria-hidden="true"></i> ۵.۰</span>
+              </div>
+              <div class="game-actions">
+                <button class="btn btn-sm btn-primary game-launch">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+                <button class="btn btn-sm btn-outline">جزئیات</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card reveal-up" data-category="quiz" data-delay="500" aria-label="بازی حافظه">
+            <div class="game-thumb">
+              <div class="game-thumb-inner memory-bg">
+                <i class="fas fa-brain" aria-hidden="true"></i>
+                <div class="game-numbers" aria-hidden="true">🧠 Match</div>
+              </div>
+              <div class="game-overlay">
+                <button class="btn-play" aria-label="اجرای بازی حافظه">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+              </div>
+              <span class="game-badge">حافظه</span>
+            </div>
+            <div class="game-info">
+              <h3>Memory Game</h3>
+              <p>تقویت حافظه کوتاه‌مدت با یافتن جفت‌های تصویری در زمان محدود</p>
+              <div class="game-meta">
+                <span><i class="fas fa-user" aria-hidden="true"></i> همه سنین</span>
+                <span><i class="fas fa-star" aria-hidden="true"></i> ۴.۹</span>
+              </div>
+              <div class="game-actions">
+                <button class="btn btn-sm btn-primary game-launch">
+                  <i class="fas fa-play" aria-hidden="true"></i> اجرا
+                </button>
+                <button class="btn btn-sm btn-outline">جزئیات</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AI GALLERY ===== -->
+    <section id="ai-gallery" class="gallery-section section-pad" aria-label="گالری هوش مصنوعی">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">خلاقیت هوش مصنوعی</div>
+          <h2 class="section-title">گالری هوش مصنوعی</h2>
+          <p class="section-desc">نمونه پروژه‌ها و طراحی‌های آموزشی با کمک ابزارهای هوش مصنوعی</p>
+        </div>
+
+        <div class="gallery-filter reveal-up" role="group" aria-label="فیلتر گالری">
+          <button class="filter-btn active" data-gallery-filter="all">همه</button>
+          <button class="filter-btn" data-gallery-filter="image">تصاویر</button>
+          <button class="filter-btn" data-gallery-filter="poster">پوسترها</button>
+          <button class="filter-btn" data-gallery-filter="design">طراحی آموزشی</button>
+          <button class="filter-btn" data-gallery-filter="project">پروژه‌ها</button>
+        </div>
+
+        <div class="gallery-masonry" id="galleryGrid">
+          <div class="gallery-item tall reveal-fade" data-gallery-cat="image" tabindex="0" role="button" aria-label="باز کردن تصویر ۱">
+            <div class="gallery-placeholder gp-1">
+              <i class="fas fa-robot" aria-hidden="true"></i>
+              <span>هوش مصنوعی و کلاس درس</span>
+            </div>
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item reveal-fade" data-gallery-cat="poster" data-delay="100" tabindex="0" role="button" aria-label="باز کردن پوستر ۱">
+            <div class="gallery-placeholder gp-2">
+              <i class="fas fa-palette" aria-hidden="true"></i>
+              <span>پوستر آموزشی</span>
+            </div>
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item wide reveal-fade" data-gallery-cat="design" data-delay="200" tabindex="0" role="button" aria-label="باز کردن طراحی ۱">
+            <div class="gallery-placeholder gp-3">
+              <i class="fas fa-layer-group" aria-hidden="true"></i>
+              <span>طراحی محیط یادگیری</span>
+            </div>
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item reveal-fade" data-gallery-cat="project" data-delay="300" tabindex="0" role="button" aria-label="باز کردن پروژه ۱">
+            <div class="gallery-placeholder gp-4">
+              <i class="fas fa-code" aria-hidden="true"></i>
+              <span>پروژه بازی آموزشی</span>
+            </div>
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item reveal-fade" data-gallery-cat="image" data-delay="400" tabindex="0" role="button" aria-label="باز کردن تصویر ۲">
+            <div class="gallery-placeholder gp-5">
+              <i class="fas fa-brain" aria-hidden="true"></i>
+              <span>نقشه ذهنی هوشمند</span>
+            </div>
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item tall reveal-fade" data-gallery-cat="poster" data-delay="500" tabindex="0" role="button" aria-label="باز کردن پوستر ۲">
+            <div class="gallery-placeholder gp-6">
+              <i class="fas fa-image" aria-hidden="true"></i>
+              <span>اینفوگرافیک آموزشی</span>
+            </div>
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="نمایش تصویر" hidden>
+        <button class="lightbox-close" aria-label="بستن"><i class="fas fa-times" aria-hidden="true"></i></button>
+        <div class="lightbox-content">
+          <div class="lightbox-body" id="lightboxBody"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TEACHING METHODS ===== -->
+    <section id="methods" class="methods-section section-pad" aria-label="روش‌های تدریس">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">رویکردهای نوین</div>
+          <h2 class="section-title">روش‌های تدریس</h2>
+          <p class="section-desc">مدرن‌ترین رویکردهای آموزشی برای ایجاد تجربه یادگیری عمیق و پایدار</p>
+        </div>
+
+        <div class="methods-grid">
+
+          <article class="method-card reveal-up" data-delay="0">
+            <div class="method-num" aria-hidden="true">۰۱</div>
+            <div class="method-icon" aria-hidden="true"><i class="fas fa-dice"></i></div>
+            <h3>یادگیری مبتنی بر بازی</h3>
+            <p>تبدیل محتوای درسی به تجربه‌های بازی‌گونه که انگیزه و مشارکت را افزایش می‌دهد</p>
+            <div class="method-tags">
+              <span>Gamification</span>
+              <span>تعاملی</span>
+            </div>
+          </article>
+
+          <article class="method-card reveal-up" data-delay="100">
+            <div class="method-num" aria-hidden="true">۰۲</div>
+            <div class="method-icon" aria-hidden="true"><i class="fas fa-project-diagram"></i></div>
+            <h3>یادگیری پروژه‌محور</h3>
+            <p>دانش‌آموزان با انجام پروژه‌های واقعی، مهارت‌های عملی و تفکر انتقادی کسب می‌کنند</p>
+            <div class="method-tags">
+              <span>PBL</span>
+              <span>خلاق</span>
+            </div>
+          </article>
+
+          <article class="method-card reveal-up" data-delay="200">
+            <div class="method-num" aria-hidden="true">۰۳</div>
+            <div class="method-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+            <h3>کلاس معکوس</h3>
+            <p>محتوا در خانه مطالعه می‌شود و وقت کلاس صرف حل مسئله و بحث گروهی می‌گردد</p>
+            <div class="method-tags">
+              <span>Flipped</span>
+              <span>مستقل</span>
+            </div>
+          </article>
+
+          <article class="method-card reveal-up" data-delay="300">
+            <div class="method-num" aria-hidden="true">۰۴</div>
+            <div class="method-icon" aria-hidden="true"><i class="fas fa-users"></i></div>
+            <h3>یادگیری مشارکتی</h3>
+            <p>کار گروهی ساختارمند که مسئولیت‌پذیری فردی را با اهداف مشترک تیمی ترکیب می‌کند</p>
+            <div class="method-tags">
+              <span>Cooperative</span>
+              <span>گروهی</span>
+            </div>
+          </article>
+
+          <article class="method-card reveal-up" data-delay="400">
+            <div class="method-num" aria-hidden="true">۰۵</div>
+            <div class="method-icon" aria-hidden="true"><i class="fas fa-robot"></i></div>
+            <h3>تدریس با کمک هوش مصنوعی</h3>
+            <p>استفاده از ابزارهای AI برای شخصی‌سازی یادگیری، ارزیابی خودکار و پشتیبانی از معلم</p>
+            <div class="method-tags">
+              <span>AI</span>
+              <span>شخصی‌سازی</span>
+            </div>
+          </article>
+
+          <article class="method-card reveal-up" data-delay="500">
+            <div class="method-num" aria-hidden="true">۰۶</div>
+            <div class="method-icon" aria-hidden="true"><i class="fas fa-tablet-alt"></i></div>
+            <h3>آموزش دیجیتال</h3>
+            <p>ادغام هوشمندانه ابزارهای دیجیتال در فرایند یاددهی برای تجربه یادگیری غنی‌تر</p>
+            <div class="method-tags">
+              <span>EdTech</span>
+              <span>دیجیتال</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COURSES ===== -->
+    <section id="courses" class="courses-section section-pad" aria-label="دوره‌های آموزشی">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">یادگیری حرفه‌ای</div>
+          <h2 class="section-title">دوره‌های آموزشی</h2>
+          <p class="section-desc">دوره‌های تخصصی برای ارتقاء مهارت‌های حرفه‌ای معلمان و مدیران آموزشی</p>
+        </div>
+
+        <div class="courses-grid">
+
+          <article class="course-card featured reveal-up" aria-label="دوره هوش مصنوعی برای معلمان">
+            <div class="course-badge-featured" aria-label="پیشنهاد ویژه">ویژه</div>
+            <div class="course-cover cc-ai">
+              <i class="fas fa-robot" aria-hidden="true"></i>
+            </div>
+            <div class="course-body">
+              <div class="course-meta-top">
+                <span class="course-level level-mid">متوسط</span>
+                <span class="course-duration"><i class="fas fa-clock" aria-hidden="true"></i> ۱۲ ساعت</span>
+              </div>
+              <h3>هوش مصنوعی برای معلمان</h3>
+              <p>آشنایی جامع با ابزارهای AI مثل ChatGPT، Midjourney و Gemini در محیط آموزشی</p>
+              <div class="course-footer">
+                <div class="course-price">
+                  <span class="price-old">۵۰۰,۰۰۰ تومان</span>
+                  <span class="price-new">۲۹۹,۰۰۰ تومان</span>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-sm">ثبت‌نام</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal-up" data-delay="100" aria-label="دوره بازی‌سازی آموزشی">
+            <div class="course-cover cc-game">
+              <i class="fas fa-gamepad" aria-hidden="true"></i>
+            </div>
+            <div class="course-body">
+              <div class="course-meta-top">
+                <span class="course-level level-adv">پیشرفته</span>
+                <span class="course-duration"><i class="fas fa-clock" aria-hidden="true"></i> ۲۰ ساعت</span>
+              </div>
+              <h3>بازی‌سازی آموزشی با HTML</h3>
+              <p>طراحی و توسعه بازی‌های آموزشی تعاملی بدون نیاز به دانش برنامه‌نویسی پیشرفته</p>
+              <div class="course-footer">
+                <div class="course-price">
+                  <span class="price-new">۳۵۰,۰۰۰ تومان</span>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-sm">ثبت‌نام</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal-up" data-delay="200" aria-label="دوره تولید محتوای دیجیتال">
+            <div class="course-cover cc-content">
+              <i class="fas fa-video" aria-hidden="true"></i>
+            </div>
+            <div class="course-body">
+              <div class="course-meta-top">
+                <span class="course-level level-beg">مقدماتی</span>
+                <span class="course-duration"><i class="fas fa-clock" aria-hidden="true"></i> ۸ ساعت</span>
+              </div>
+              <h3>تولید محتوای دیجیتال آموزشی</h3>
+              <p>ساخت ویدیو، اینفوگرافیک و پادکست آموزشی حرفه‌ای با ابزارهای رایگان</p>
+              <div class="course-footer">
+                <div class="course-price">
+                  <span class="price-new">۱۸۰,۰۰۰ تومان</span>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-sm">ثبت‌نام</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal-up" data-delay="300" aria-label="دوره روش‌های تدریس نوین">
+            <div class="course-cover cc-method">
+              <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+            </div>
+            <div class="course-body">
+              <div class="course-meta-top">
+                <span class="course-level level-mid">متوسط</span>
+                <span class="course-duration"><i class="fas fa-clock" aria-hidden="true"></i> ۱۶ ساعت</span>
+              </div>
+              <h3>روش‌های تدریس نوین</h3>
+              <p>یادگیری معکوس، پروژه‌محور، gamification و تدریس مبتنی بر داده</p>
+              <div class="course-footer">
+                <div class="course-price">
+                  <span class="price-new">۲۵۰,۰۰۰ تومان</span>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-sm">ثبت‌نام</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DOWNLOADS ===== -->
+    <section id="downloads" class="downloads-section section-pad" aria-label="مرکز دانلود">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">منابع رایگان</div>
+          <h2 class="section-title">مرکز دانلود</h2>
+          <p class="section-desc">منابع و ابزارهای آموزشی رایگان برای معلمان و کلاس‌های درس</p>
+        </div>
+
+        <div class="download-search reveal-up">
+          <div class="search-wrap">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input type="search" id="downloadSearch" placeholder="جستجو در منابع..." aria-label="جستجو در منابع دانلودی" />
+          </div>
+          <div class="download-cats" role="group" aria-label="دسته‌بندی منابع">
+            <button class="filter-btn active" data-dl-filter="all">همه</button>
+            <button class="filter-btn" data-dl-filter="worksheet">کاربرگ</button>
+            <button class="filter-btn" data-dl-filter="ppt">پاورپوینت</button>
+            <button class="filter-btn" data-dl-filter="guide">راهنما</button>
+            <button class="filter-btn" data-dl-filter="template">قالب</button>
+          </div>
+        </div>
+
+        <div class="downloads-grid" id="downloadsGrid">
+
+          <article class="dl-card reveal-up" data-dl-cat="worksheet" aria-label="کاربرگ ریاضی پایه اول">
+            <div class="dl-icon worksheet" aria-hidden="true"><i class="fas fa-file-alt"></i></div>
+            <div class="dl-info">
+              <h3>کاربرگ ریاضی پایه اول</h3>
+              <p>مجموعه ۲۰ کاربرگ تمرینی جمع و تفریق</p>
+              <div class="dl-meta">
+                <span><i class="fas fa-file" aria-hidden="true"></i> PDF</span>
+                <span><i class="fas fa-download" aria-hidden="true"></i> ۲۴۰۰ دانلود</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline btn-sm dl-btn" aria-label="دانلود کاربرگ ریاضی" download>
+              <i class="fas fa-download" aria-hidden="true"></i> دانلود
+            </a>
+          </article>
+
+          <article class="dl-card reveal-up" data-dl-cat="ppt" data-delay="100" aria-label="پاورپوینت هوش مصنوعی">
+            <div class="dl-icon ppt" aria-hidden="true"><i class="fas fa-file-powerpoint"></i></div>
+            <div class="dl-info">
+              <h3>پاورپوینت هوش مصنوعی در آموزش</h3>
+              <p>ارائه ۳۵ اسلایده برای کارگاه معلمان</p>
+              <div class="dl-meta">
+                <span><i class="fas fa-file" aria-hidden="true"></i> PPTX</span>
+                <span><i class="fas fa-download" aria-hidden="true"></i> ۱۸۰۰ دانلود</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline btn-sm dl-btn" aria-label="دانلود پاورپوینت" download>
+              <i class="fas fa-download" aria-hidden="true"></i> دانلود
+            </a>
+          </article>
+
+          <article class="dl-card reveal-up" data-dl-cat="guide" data-delay="200" aria-label="راهنمای کلاس معکوس">
+            <div class="dl-icon guide" aria-hidden="true"><i class="fas fa-book"></i></div>
+            <div class="dl-info">
+              <h3>راهنمای کلاس معکوس</h3>
+              <p>گام‌به‌گام پیاده‌سازی Flipped Classroom</p>
+              <div class="dl-meta">
+                <span><i class="fas fa-file" aria-hidden="true"></i> PDF</span>
+                <span><i class="fas fa-download" aria-hidden="true"></i> ۹۰۰ دانلود</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline btn-sm dl-btn" aria-label="دانلود راهنما" download>
+              <i class="fas fa-download" aria-hidden="true"></i> دانلود
+            </a>
+          </article>
+
+          <article class="dl-card reveal-up" data-dl-cat="template" data-delay="300" aria-label="قالب طرح درس">
+            <div class="dl-icon template" aria-hidden="true"><i class="fas fa-file-word"></i></div>
+            <div class="dl-info">
+              <h3>قالب طرح درس روزانه</h3>
+              <p>فرم استاندارد طرح درس برای تمام مقاطع ابتدایی</p>
+              <div class="dl-meta">
+                <span><i class="fas fa-file" aria-hidden="true"></i> DOCX</span>
+                <span><i class="fas fa-download" aria-hidden="true"></i> ۳۱۰۰ دانلود</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline btn-sm dl-btn" aria-label="دانلود قالب" download>
+              <i class="fas fa-download" aria-hidden="true"></i> دانلود
+            </a>
+          </article>
+
+          <article class="dl-card reveal-up" data-dl-cat="worksheet" data-delay="400" aria-label="کاربرگ علوم پایه سوم">
+            <div class="dl-icon worksheet" aria-hidden="true"><i class="fas fa-file-alt"></i></div>
+            <div class="dl-info">
+              <h3>کاربرگ علوم پایه سوم</h3>
+              <p>آزمایش‌ها و فعالیت‌های علوم تجربی کلاس سوم</p>
+              <div class="dl-meta">
+                <span><i class="fas fa-file" aria-hidden="true"></i> PDF</span>
+                <span><i class="fas fa-download" aria-hidden="true"></i> ۱۲۰۰ دانلود</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline btn-sm dl-btn" aria-label="دانلود کاربرگ علوم" download>
+              <i class="fas fa-download" aria-hidden="true"></i> دانلود
+            </a>
+          </article>
+
+          <article class="dl-card reveal-up" data-dl-cat="guide" data-delay="500" aria-label="راهنمای gamification">
+            <div class="dl-icon guide" aria-hidden="true"><i class="fas fa-book"></i></div>
+            <div class="dl-info">
+              <h3>راهنمای Gamification آموزشی</h3>
+              <p>اجرای بازی‌وارسازی در کلاس درس به ساده‌ترین روش</p>
+              <div class="dl-meta">
+                <span><i class="fas fa-file" aria-hidden="true"></i> PDF</span>
+                <span><i class="fas fa-download" aria-hidden="true"></i> ۷۵۰ دانلود</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline btn-sm dl-btn" aria-label="دانلود راهنما" download>
+              <i class="fas fa-download" aria-hidden="true"></i> دانلود
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOG ===== -->
+    <section id="blog" class="blog-section section-pad" aria-label="وبلاگ">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">آخرین مطالب</div>
+          <h2 class="section-title">وبلاگ آموزشی</h2>
+          <p class="section-desc">مقالات تخصصی در حوزه آموزش نوین، فناوری و روش‌های تدریس</p>
+        </div>
+
+        <div class="blog-grid">
+
+          <article class="blog-card featured-post reveal-up" aria-label="مقاله ویژه: هوش مصنوعی در آموزش">
+            <div class="blog-thumb bt-ai">
+              <div class="blog-thumb-inner">
+                <i class="fas fa-robot" aria-hidden="true"></i>
+              </div>
+              <span class="blog-cat">هوش مصنوعی</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-date" aria-label="تاریخ انتشار">
+                <i class="fas fa-calendar" aria-hidden="true"></i> دی ۱۴۰۳
+              </div>
+              <h3>هوش مصنوعی چگونه کلاس درس را متحول می‌کند؟</h3>
+              <p>بررسی جامع کاربردهای AI در آموزش، از ارزیابی خودکار تا شخصی‌سازی مسیر یادگیری هر دانش‌آموز</p>
+              <div class="blog-tags">
+                <span>#ChatGPT</span><span>#آموزش</span><span>#هوش_مصنوعی</span>
+              </div>
+              <a href="#" class="blog-read" aria-label="ادامه مطلب هوش مصنوعی در آموزش">ادامه مطلب <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal-up" data-delay="100" aria-label="مقاله: تدریس نوین">
+            <div class="blog-thumb bt-teach">
+              <div class="blog-thumb-inner"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></div>
+              <span class="blog-cat">روش تدریس</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-date"><i class="fas fa-calendar" aria-hidden="true"></i> آذر ۱۴۰۳</div>
+              <h3>۵ روش تدریس که هر معلمی باید بداند</h3>
+              <p>معرفی رویکردهای نوین تدریس که یادگیری عمیق را ممکن می‌سازد</p>
+              <div class="blog-tags"><span>#تدریس</span><span>#PBL</span></div>
+              <a href="#" class="blog-read">ادامه مطلب <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal-up" data-delay="200" aria-label="مقاله: فناوری در کلاس">
+            <div class="blog-thumb bt-tech">
+              <div class="blog-thumb-inner"><i class="fas fa-laptop" aria-hidden="true"></i></div>
+              <span class="blog-cat">فناوری</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-date"><i class="fas fa-calendar" aria-hidden="true"></i> آبان ۱۴۰۳</div>
+              <h3>بهترین ابزارهای دیجیتال برای کلاس درس</h3>
+              <p>معرفی و مقایسه ابزارهای رایگان EdTech برای معلمان مقطع ابتدایی</p>
+              <div class="blog-tags"><span>#EdTech</span><span>#ابزار</span></div>
+              <a href="#" class="blog-read">ادامه مطلب <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal-up" data-delay="300" aria-label="مقاله: ارزیابی نوین">
+            <div class="blog-thumb bt-assess">
+              <div class="blog-thumb-inner"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+              <span class="blog-cat">ارزیابی</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-date"><i class="fas fa-calendar" aria-hidden="true"></i> مهر ۱۴۰۳</div>
+              <h3>ارزیابی مستمر در عصر دیجیتال</h3>
+              <p>روش‌های نوین سنجش پیشرفت یادگیرندگان بدون آزمون سنتی</p>
+              <div class="blog-tags"><span>#ارزیابی</span><span>#دیجیتال</span></div>
+              <a href="#" class="blog-read">ادامه مطلب <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about-section section-pad" aria-label="درباره سعید عزیزی">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-visual reveal-fade">
+            <div class="about-avatar">
+              <div class="avatar-ring" aria-hidden="true"></div>
+              <div class="avatar-inner">
+                <i class="fas fa-user-graduate" aria-hidden="true"></i>
+              </div>
+              <div class="avatar-badge" aria-label="بیش از ۱۰ سال تجربه">+۱۰ سال</div>
+            </div>
+
+            <div class="about-achievements">
+              <div class="achievement-item">
+                <i class="fas fa-medal" aria-hidden="true"></i>
+                <span>کارشناسی ارشد علوم تربیتی</span>
+              </div>
+              <div class="achievement-item">
+                <i class="fas fa-certificate" aria-hidden="true"></i>
+                <span>مدرس رسمی کارگاه‌های آموزشی</span>
+              </div>
+              <div class="achievement-item">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <span>تولیدکننده محتوای آموزشی دیجیتال</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content reveal-up">
+            <div class="section-eyebrow">درباره من</div>
+            <h2 class="section-title">سعید عزیزی</h2>
+            <p class="about-role">متخصص آموزش نوین | هوش مصنوعی در آموزش | فناوری آموزشی</p>
+
+            <p class="about-bio">
+              با بیش از یک دهه تجربه در حوزه آموزش ابتدایی و تربیت معلم، تخصص اصلی‌ام تلفیق فناوری و روش‌های نوین با آموزش سنتی است. باور دارم که هر کودک استحقاق یک تجربه یادگیری جذاب و اثربخش دارد.
+            </p>
+
+            <div class="about-mission">
+              <div class="mission-item">
+                <div class="mission-icon" aria-hidden="true"><i class="fas fa-bullseye"></i></div>
+                <div>
+                  <h4>مأموریت</h4>
+                  <p>توانمندسازی معلمان ایران با ابزارهای نوین آموزشی و فناوری‌های روز دنیا</p>
+                </div>
+              </div>
+              <div class="mission-item">
+                <div class="mission-icon" aria-hidden="true"><i class="fas fa-eye"></i></div>
+                <div>
+                  <h4>چشم‌انداز</h4>
+                  <p>کلاس‌های درسی که در آن یادگیری با شادی، خلاقیت و کنجکاوی همراه باشد</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-timeline">
+              <div class="timeline-item">
+                <div class="tl-year">۱۳۹۳</div>
+                <div class="tl-content">شروع تدریس در مدارس ابتدایی</div>
+              </div>
+              <div class="timeline-item">
+                <div class="tl-year">۱۳۹۷</div>
+                <div class="tl-content">شروع تولید محتوای آموزشی دیجیتال</div>
+              </div>
+              <div class="timeline-item">
+                <div class="tl-year">۱۴۰۰</div>
+                <div class="tl-content">راه‌اندازی کارگاه‌های معلم‌پروری</div>
+              </div>
+              <div class="timeline-item">
+                <div class="tl-year">۱۴۰۲</div>
+                <div class="tl-content">تمرکز روی هوش مصنوعی در آموزش</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials" class="testimonials-section section-pad" aria-label="نظرات">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">صداهای واقعی</div>
+          <h2 class="section-title">معلمان درباره من می‌گویند</h2>
+        </div>
+
+        <div class="testimonials-slider" aria-live="polite">
+          <div class="testimonials-track" id="testimonialsTrack">
+
+            <div class="testimonial-slide" role="group" aria-label="نظر ۱ از ۴">
+              <div class="testimonial-card">
+                <div class="testimonial-quote" aria-hidden="true">"</div>
+                <p>کارگاه هوش مصنوعی استاد عزیزی دیدگاهم را نسبت به آموزش کاملاً تغییر داد. حالا از ChatGPT در تهیه طرح درس استفاده می‌کنم.</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">ز.ر</div>
+                  <div>
+                    <strong>زهرا رحیمی</strong>
+                    <span>معلم ریاضی پایه چهارم | تهران</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide" role="group" aria-label="نظر ۲ از ۴">
+              <div class="testimonial-card">
+                <div class="testimonial-quote" aria-hidden="true">"</div>
+                <p>بازی‌های آموزشی HTML ایشان معجزه کرد! دانش‌آموزان با ذوق و شوق ریاضی یاد می‌گیرند. توصیه می‌کنم همه معلمان این منابع را ببینند.</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">م.ک</div>
+                  <div>
+                    <strong>محمد کاظمی</strong>
+                    <span>مدیر مدرسه ابتدایی | اصفهان</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide" role="group" aria-label="نظر ۳ از ۴">
+              <div class="testimonial-card">
+                <div class="testimonial-quote" aria-hidden="true">"</div>
+                <p>روش کلاس معکوس را از دوره‌های ایشان یاد گرفتم و نتایج شگفت‌انگیزی در پیشرفت دانش‌آموزانم دیدم. محتوای عمیق و کاربردی.</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">ف.ص</div>
+                  <div>
+                    <strong>فاطمه صادقی</strong>
+                    <span>دبیر علوم | شیراز</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide" role="group" aria-label="نظر ۴ از ۴">
+              <div class="testimonial-card">
+                <div class="testimonial-quote" aria-hidden="true">"</div>
+                <p>کارگاه تولید محتوای دیجیتال کانال یوتیوبم را از صفر راه انداختم. الان بیش از ۵ هزار معلم از محتوایم استفاده می‌کنند.</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">ع.م</div>
+                  <div>
+                    <strong>علی مرادی</strong>
+                    <span>کارشناس آموزش و پرورش | مشهد</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testimonials-controls">
+            <button class="tl-btn" id="tlPrev" aria-label="نظر قبلی">
+              <i class="fas fa-chevron-right" aria-hidden="true"></i>
+            </button>
+            <div class="tl-dots" id="tlDots" aria-label="موقعیت اسلایدر"></div>
+            <button class="tl-btn" id="tlNext" aria-label="نظر بعدی">
+              <i class="fas fa-chevron-left" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="faq-section section-pad" aria-label="سوالات متداول">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">پرسش و پاسخ</div>
+          <h2 class="section-title">سوالات متداول</h2>
+        </div>
+
+        <div class="faq-list" role="list">
+
+          <div class="faq-item reveal-up" role="listitem">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-1">
+              <span>دوره‌ها به صورت آنلاین هستند یا حضوری؟</span>
+              <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a" id="faq-1" hidden>
+              <p>دوره‌ها هم به صورت آنلاین (ضبط‌شده و زنده) و هم حضوری برگزار می‌شوند. کارگاه‌های تخصصی معمولاً به شکل حضوری در شهرهای مختلف برنامه‌ریزی می‌شوند. می‌توانید از طریق فرم تماس نوع مورد نظر را مشخص کنید.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up" data-delay="100" role="listitem">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-2">
+              <span>آیا برای دوره‌ها گواهینامه صادر می‌شود؟</span>
+              <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a" id="faq-2" hidden>
+              <p>بله، پس از اتمام موفق هر دوره، گواهینامه الکترونیکی معتبر صادر می‌شود. برای کارگاه‌های رسمی سازمان آموزش و پرورش، تأییدیه رسمی نیز ارائه می‌گردد.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up" data-delay="200" role="listitem">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-3">
+              <span>بازی‌های آموزشی روی چه دستگاه‌هایی اجرا می‌شوند؟</span>
+              <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a" id="faq-3" hidden>
+              <p>تمام بازی‌های آموزشی HTML5 هستند و بدون نیاز به نصب، روی هر دستگاهی با مرورگر مدرن اجرا می‌شوند. کامپیوتر، تبلت و گوشی موبایل همه پشتیبانی می‌شوند.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up" data-delay="300" role="listitem">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-4">
+              <span>آیا می‌توان دوره را برای گروه مدرسه رزرو کرد؟</span>
+              <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a" id="faq-4" hidden>
+              <p>بله، برای مدارس و گروه‌های بالای ۱۰ نفر تخفیف ویژه‌ای در نظر گرفته می‌شود. همچنین امکان برگزاری کارگاه اختصاصی در محل مدرسه با برنامه متناسب با نیازهای شما وجود دارد.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up" data-delay="400" role="listitem">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-5">
+              <span>محتوای وبلاگ و دانلودها رایگان است؟</span>
+              <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a" id="faq-5" hidden>
+              <p>بله، تمام مطالب وبلاگ و بخش بزرگی از منابع دانلودی کاملاً رایگان هستند. برخی منابع پیشرفته‌تر برای اعضای ویژه در دسترس قرار می‌گیرند.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact-section section-pad" aria-label="تماس با ما">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-eyebrow">در ارتباط باشیم</div>
+          <h2 class="section-title">تماس با من</h2>
+          <p class="section-desc">برای همکاری، کارگاه‌های مدرسه یا هر سوالی در تماس باشید</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info reveal-fade">
+            <div class="contact-cards">
+              <div class="contact-info-card">
+                <div class="ci-icon" aria-hidden="true"><i class="fab fa-telegram"></i></div>
+                <div>
+                  <h4>تلگرام</h4>
+                  <a href="https://t.me/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="کانال تلگرام سعید عزیزی">@saeidazizi</a>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div class="ci-icon" aria-hidden="true"><i class="fab fa-instagram"></i></div>
+                <div>
+                  <h4>اینستاگرام</h4>
+                  <a href="https://instagram.com/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="اینستاگرام سعید عزیزی">@saeidazizi</a>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div class="ci-icon" aria-hidden="true"><i class="fab fa-youtube"></i></div>
+                <div>
+                  <h4>یوتیوب</h4>
+                  <a href="https://youtube.com/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="کانال یوتیوب سعید عزیزی">کانال آموزشی</a>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div class="ci-icon" aria-hidden="true"><i class="fab fa-linkedin"></i></div>
+                <div>
+                  <h4>لینکدین</h4>
+                  <a href="https://linkedin.com/in/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="لینکدین سعید عزیزی">سعید عزیزی</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="map-placeholder" aria-label="نقشه موقعیت">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <span>ایران — دسترس از همه شهرها</span>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal-up">
+            <form id="contactForm" class="contact-form" novalidate aria-label="فرم تماس">
+              <div class="form-group">
+                <label for="cf-name">نام و نام خانوادگی</label>
+                <input type="text" id="cf-name" name="name" required autocomplete="name" aria-required="true" placeholder="مثال: علی محمدی" />
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="cf-email">آدرس ایمیل</label>
+                <input type="email" id="cf-email" name="email" required autocomplete="email" aria-required="true" placeholder="example@gmail.com" />
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="cf-subject">موضوع</label>
+                <select id="cf-subject" name="subject" required aria-required="true">
+                  <option value="">انتخاب موضوع...</option>
+                  <option value="workshop">درخواست کارگاه</option>
+                  <option value="course">اطلاعات دوره</option>
+                  <option value="game">سفارش بازی آموزشی</option>
+                  <option value="content">تولید محتوا</option>
+                  <option value="other">سایر</option>
+                </select>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="cf-message">پیام</label>
+                <textarea id="cf-message" name="message" rows="5" required aria-required="true" placeholder="پیام خود را بنویسید..."></textarea>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                ارسال پیام
+              </button>
+              <div id="formSuccess" class="form-success" hidden role="alert" aria-live="assertive">
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                پیام شما با موفقیت ارسال شد! به زودی پاسخ خواهم داد.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="brand-icon" aria-hidden="true">✦</span>
+            سعید عزیزی
+          </div>
+          <p class="footer-tagline">آموزش با روش‌های نوین برای آینده‌ای هوشمند</p>
+          <div class="footer-social" aria-label="شبکه‌های اجتماعی">
+            <a href="https://t.me/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="تلگرام"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="اینستاگرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://youtube.com/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="یوتیوب"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/in/saeidazizi" target="_blank" rel="noopener noreferrer" aria-label="لینکدین"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <nav class="footer-links" aria-label="لینک‌های سریع">
+          <h3>لینک‌های سریع</h3>
+          <ul role="list">
+            <li><a href="#home">خانه</a></li>
+            <li><a href="#services">خدمات</a></li>
+            <li><a href="#games">بازی‌های آموزشی</a></li>
+            <li><a href="#courses">دوره‌ها</a></li>
+            <li><a href="#downloads">دانلودها</a></li>
+            <li><a href="#blog">وبلاگ</a></li>
+            <li><a href="#about">درباره من</a></li>
+            <li><a href="#contact">تماس</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-services" aria-label="خدمات">
+          <h3>خدمات</h3>
+          <ul role="list">
+            <li><a href="#services">هوش مصنوعی در آموزش</a></li>
+            <li><a href="#games">بازی‌های HTML آموزشی</a></li>
+            <li><a href="#services">تولید محتوای آموزشی</a></li>
+            <li><a href="#methods">روش‌های تدریس نوین</a></li>
+            <li><a href="#courses">کارگاه‌های معلمان</a></li>
+            <li><a href="#downloads">وسایل کمک‌آموزشی</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>خبرنامه</h3>
+          <p>برای دریافت آخرین مطالب و منابع رایگان ثبت‌نام کنید</p>
+          <form class="newsletter-form" id="newsletterForm" novalidate aria-label="فرم خبرنامه">
+            <div class="nl-group">
+              <input type="email" placeholder="ایمیل شما..." aria-label="ایمیل برای خبرنامه" required />
+              <button type="submit" aria-label="ثبت‌نام در خبرنامه">
+                <i class="fas fa-arrow-left" aria-hidden="true"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© ۱۴۰۳ سعید عزیزی — تمام حقوق محفوظ است</p>
+        <p class="footer-made">ساخته‌شده با <i class="fas fa-heart" style="color:#FFD700" aria-hidden="true"></i> برای معلمان ایران</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" class="back-to-top" aria-label="برگشت به بالا" hidden>
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Game Modal -->
+  <div id="gameModal" class="modal" role="dialog" aria-modal="true" aria-label="بازی آموزشی" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-box">
+      <button class="modal-close" aria-label="بستن بازی"><i class="fas fa-times" aria-hidden="true"></i></button>
+      <div class="modal-body" id="gameModalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
